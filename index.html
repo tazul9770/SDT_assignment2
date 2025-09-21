@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drink Search and Grouping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="food-details" class="hidden">
+    <!-- akhane details button a click korle drink er details dekhabe -->
+  </div>
+  <div class="search-bar-container">
+    <!-- akhane input niye search korchii -->
+    <input type="text" id="search-box" placeholder="Search for a drink...">
+    <button id="handleAdd">Search</button>
+  </div>
+   <div class="main-container"> <!-- er vitore 2 ta part korbo -->
+    <div id="product-container" class="product-container">
+        <!-- akhane search kora all drinks dekhabe -->
+    </div>
+    <div class="cart-container">
+       <!-- akhane add to cart korbo -->
+      <h3> Add to cart : <span id="drink-count">0</span></h3>
+      <div id="cart-main-container" class="cart-main-container"></div>
+      <div>Total: <span id="total-drinks">0</span></div>
+    </div>
+  </div>
+
+  <script src="project.js"></script>
+</body>
+</html>
